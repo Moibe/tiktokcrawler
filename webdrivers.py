@@ -5,7 +5,7 @@ from undetected_chromedriver import Chrome, ChromeOptions
 
 def createDriver(**kwargs):
     #Establecer valores predeterminados.
-    navigator = kwargs.get('navigator', 'firefox')
+    navigator = kwargs.get('navigator', 'chrome')
     headless = kwargs.get('headless', False)
     width = kwargs.get('width', 800)
     height = kwargs.get('height', 600)
