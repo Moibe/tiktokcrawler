@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service as FirefoxService
 #from webdriver_manager.firefox import GeckoDriverManager
-from undetected_chromedriver import Chrome, ChromeOptions
+#from undetected_chromedriver import Chrome, ChromeOptions
 
 def createDriver(**kwargs):
     #Establecer valores predeterminados.

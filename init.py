@@ -1,6 +1,7 @@
 import time
 from webdrivers import createDriver
-from workspaces import Google, ManyVids
+#from workspaces import Google
+from manyvids import ManyVids
 
 
 #Aquí llamas a otras funciones en otros py que realizen el trabajo.
@@ -17,8 +18,8 @@ navegador = createDriver(navigator='chrome', width=800, height=600, headless=Fal
 print("Haciendo SignIn")
 ManyVids(navegador, servicio = 'signIn')
 
-time.sleep(4)
+time.sleep(1)
 
-print("Haciendo Test")
-ManyVids(navegador, servicio = 'test')
+print("Following")
+ManyVids(navegador, servicio = 'follow')
 
