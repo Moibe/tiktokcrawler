@@ -1,0 +1,56 @@
+Seleccionar tipo: trns: 
+/html/body/div[1]/div/div/main/div/div/div[4]/div/img
+
+Boton de SignIn: 
+
+/html/body/div[1]/div/header/div/div/span/a[2]/button
+/html/body/div[1]/header/div/div[3]/div[1]/button[2]
+
+Campo de Usuario: 
+//*[@id="triggerUsername"]
+
+Campo de Password
+//*[@id="triggerPassword"]
+
+Botón Login: 
+//*[@id="loginAccountSubmit"]
+
+Creadores: 
+
+https://www.manyvids.com/MVTrans/
+
+Logos: 
+
+/html/body/div[6]/div/div[3]/div[4]/div[1]/div/a/div
+/html/body/div[6]/div/div[3]/div[4]/div[2]/div/a/img
+/html/body/div[6]/div/div[3]/div[4]/div[14]/div/a/div
+...
+/html/body/div[6]/div/div[3]/div[4]/div[126]/div/a/img
+
+Nombres
+
+/html/body/div[6]/div/div[3]/div[4]/div[1]/div/h4/a
+/html/body/div[6]/div/div[3]/div[4]/div[2]/div/h4/a
+/html/body/div[6]/div/div[3]/div[4]/div[126]/div/h4/a
+
+Cuando te lleva a la página: 
+
+Éste es su nombre también: 
+/html/body/div[5]/aside[1]/div[1]/div[1]/div[1]/h1
+y obtienes su texto así: 
+
+siguiente = webDriver.find_element(By.ID, id_texto)
+texto = siguiente.getText()
+
+
+
+
+
+
+Members: 
+/html/body/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[2]/kwc-follow-button
+/html/body/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]/kwc-follow-button
+/html/body/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[4]/div[1]/div[2]/kwc-follow-button
+/html/body/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[37]/div[1]/div[2]/kwc-follow-button
+/html/body/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[95]/div[1]/div[2]/kwc-follow-button
+
