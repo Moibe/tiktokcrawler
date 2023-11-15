@@ -15,10 +15,6 @@ Campo de Password
 Botón Login: 
 //*[@id="loginAccountSubmit"]
 
-Creadores: 
-
-https://www.manyvids.com/MVTrans/
-
 Logos: 
 
 /html/body/div[6]/div/div[3]/div[4]/div[1]/div/a/div
@@ -27,8 +23,18 @@ Logos:
 ...
 /html/body/div[6]/div/div[3]/div[4]/div[126]/div/a/img
 
-Nombres
+Banner de anuncios, click en Maybe Later: 
+/html/body/div[5]/div/div[1]/div/div[2]/div/a
+/html/body/div[5]/div/div[1]/div/div[2]/div/a
+/html/body/div[5]/div/div[1]/div/div[2]/div/a
 
+Nombres:
+
+Sin Loguear:
+/html/body/div[5]/div/div[3]/div[4]/div[3]/div/h4/a
+/html/body/div[5]/div/div[3]/div[4]/div[1]/div/a/div
+/html/body/div[5]/div/div[3]/div[4]/div[1]/div/h4/a
+Logeado: 
 /html/body/div[6]/div/div[3]/div[4]/div[1]/div/h4/a
 /html/body/div[6]/div/div[3]/div[4]/div[2]/div/h4/a
 /html/body/div[6]/div/div[3]/div[4]/div[126]/div/h4/a
@@ -41,6 +47,28 @@ y obtienes su texto así:
 
 siguiente = webDriver.find_element(By.ID, id_texto)
 texto = siguiente.getText()
+
+--
+
+Ya cuando estamos en la página de sus seguidores:
+/html/body/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/kwc-user-info
+/html/body/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[3]/div[1]/div[1]/kwc-user-info
+...
+/html/body/div[4]/div/div/div[2]/div[2]/div[2]/div[1]/div[95]/div[1]/div[1]/kwc-user-info
+
+FOLLOWERS: 
+
+y  aen la página del creador correspondiente:
+
+Para abrir los 3 puntitos: 
+/html/body/div[4]/div[2]/div[1]/div[2]/div/div/a
+
+y el link de followers en los 3 puntitos: 
+/html/body/div[4]/div[2]/div[1]/div[2]/div/div/div/a[1]
+
+No  es necesario, se puede llegar directo vía URL: 
+https://www.manyvids.com/Profile/1000135912/shiri-allwood
+https://www.manyvids.com/Social/Shiri-Allwood/1000135912/Followers/
 
 
 

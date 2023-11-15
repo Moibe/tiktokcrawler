@@ -15,11 +15,15 @@ from manyvids import ManyVids
 #Cre un navegador con las características que deseas.
 navegador = createDriver(navigator='chrome', width=800, height=600, headless=False)
 
-print("Haciendo SignIn")
-ManyVids(navegador, servicio = 'signIn')
+#Creo que para muchas funciones no se necesita hacer signIn!
+#print("Haciendo SignIn")
+#ManyVids(navegador, servicio = 'signIn')
 
 time.sleep(1)
 
-print("Following")
-ManyVids(navegador, servicio = 'follow')
+#Para ésto sirve hacerlo modularmente, podemos saltarnos procesos que ya hicimos. 
+print("Listando creadores...")
+ManyVids(navegador, servicio = 'listCreators')
+
+#Y partir hacia otros caminos después del signIn.
 
