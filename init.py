@@ -12,7 +12,7 @@ from manyvids import ManyVids
 #Google(servicio='busqueda', busqueda='Finlandia')
 #ManyVids(servicio='signIn')
 
-#Cre un navegador con las características que deseas.
+#Crea un navegador con las características que deseas.
 navegador = createDriver(navigator='chrome', width=800, height=600, headless=False)
 
 #Creo que para muchas funciones no se necesita hacer signIn!
